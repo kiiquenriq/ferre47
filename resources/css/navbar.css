@@ -1,0 +1,50 @@
+.navbar {
+    padding: 1rem 0;
+}
+.form-control {
+    display: block;
+    width: 10rem;
+    margin: 0 3rem;
+}
+
+
+.bod div input {
+    width: 25rem;
+}
+.offcanvas {
+    flex-direction: column;
+}
+
+@media(min-width: 780px) {
+    .offcanvas {
+        flex-direction: row;
+    }
+}
+
+/* navigation complete */
+
+.navigation-menu{
+    height: calc(100vh - 8rem);
+
+}
+
+/* //menul movil  */
+
+@media (max-width:768px) {
+    .menu-mov {
+        flex-direction: column;
+        margin: 0 1rem;
+    }
+  
+}
+@media (min-width:769px) {
+   .nav_cat {
+       visibility: visible  !important;
+   }
+   .nav_li {
+       visibility: visible !important;
+   }
+  
+}
+
+/* Header */

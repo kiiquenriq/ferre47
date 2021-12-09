@@ -1,0 +1,37 @@
+.head-cat {
+    background-image: url('/storage/images/store.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 10rem 0;
+}
+.head-cat::before {
+    content: '';
+    position: absolute;
+    background-color: rgba(0,0,0,.7);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.head-se {
+    background-image: url('/images/search.jpg');
+    background-attachment: fixed;
+    background-position:bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 10rem 0;
+}
+.head-se::before {
+    content: '';
+    position: absolute;
+    background-color: rgba(0,0,0,.7);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
