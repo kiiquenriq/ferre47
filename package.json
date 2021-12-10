@@ -23,6 +23,7 @@
     "dependencies": {
         "@glidejs/glide": "^3.4.1",
         "@splidejs/splide": "^3.2.5",
+        "jsprintmanager": "^4.0.3",
         "onscan.js": "^1.5.2",
         "swiper": "^7.2.0"
     }
