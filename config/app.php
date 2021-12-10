@@ -52,7 +52,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'https://ferre-47-5ilk7.ondigitalocean.app/'),
+    'url' => env('APP_URL', 'https://ferre-47-8rmz8.ondigitalocean.app'),
 
     'asset_url' => env('ASSET_URL', null),
 
